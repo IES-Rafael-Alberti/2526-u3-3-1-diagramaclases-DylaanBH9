@@ -1,94 +1,131 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HJqBG45V)
 # Práctica 3.1: Diagrama de clases
 
-Apoyate en los siguientes recursos para realizar la práctica:
+## Identificación de la Actividad
+- **ID de la Actividad:** 3.1. Diagrama de clases
+- **Módulo:** EDES
+- **Unidad de Trabajo:** U3: Diseño y diagramas de clases 
+- **Fecha de Creación:** 7/12/25
+- **Fecha de Entrega:** 9/12/25
+- **Alumno(s):**
+    - **Nombre y Apellidos:** Dylan Bauti Huelva
+    - **Correo electrónico:** dbauhue1708@g.educaand.es
+    - **Iniciales del Alumno/Grupo:** DBH
 
-Archivos en el repositorio:
-Ej1_DiagramaClases_LibrosAutor.md
-Ej2_DiagramaClases_CursosUniversitarios.md
-....
+## Descripción del Problema
 
-Usa el ejercicio 5 como referencia para realizar los diagramas de clases del resto de ejercicios.
+En esta práctica se diseñan diagramas de clases UML usando PlantUML. Los ejercicios van desde relaciones simples hasta relaciones más complejas con herencia y asociaciones.
 
-## Ejercicios.
-Cada ejercicio en un archivo diferente, con nombre `EjX_DiagramaClases_NombreTema_sol.md`, donde X es el número de ejercicio y NombreTema es una breve descripción del tema del ejercicio.
+### Objetivos
+- Identificar las partes principales de un sistema
+- Aprender a usar conceptos de Programación Orientada a Objetos
+- Diseñar diagramas UML correctamente
+- Usar PlantUML para crear los diagramas
 
-## Entrega
-1. Agregar en la carpeta `src` la solución de los ejercicios 
-3. Mas abajo tienes un ejemplo de como entregar la práctica. Aplica lo que tenga sentido, ya que no es un programa.
-4. Recuerda que debes subir el enlace al repositorio en la tarea correspondiente del aula virtual.
+## Ejercicios Realizados
 
+### [Ejercicio 1: Sistema de Libros y Autores](src/Ej1_DiagramaClases_LibrosAutor_sol.puml)
+Un autor escribe libros. Se muestra cómo un autor puede tener varios libros.
 
+**Conceptos:** Un autor - varios libros, cálculos automáticos.
+
+### [Ejercicio 2: Sistema de Gestión de Cursos Universitarios](src/Ej2_DiagramaClases_CursosUniversitarios_sol.puml)
+Un profesor enseña cursos y los estudiantes se inscriben en los cursos. Se registra cuándo se inscriben y qué nota sacan.
+
+**Conceptos:** Varios a varios, tabla intermedia que guarda datos.
+
+### [Ejercicio 4: Sistema de Gestión Empresarial](src/Ej4_DiagramaClases_GestionEmpresarial_sol.puml)
+Estructura de una empresa con empleados, clientes y empresas. Algunos empleados supervisan a otros.
+
+**Conceptos:** Herencia, un empleado responsable supervisa otros, cálculos de salario.
+
+### [Ejercicio 6: Sistema de Biblioteca](src/Ej6_DiagramaClases_Biblioteca_sol.puml)
+Gestión de libros que se prestan a socios. Control de devoluciones y multas.
+
+**Conceptos:** Estados de libros, préstamos, multas por retraso.
+
+### [Ejercicio 7: Copa Davis de Tenis](src/Ej7_DiagramaClases_CopaDavis_sol.puml)
+Un torneo de tenis entre equipos de diferentes países. Cada equipo tiene jugadores y juega partidos.
+
+**Conceptos:** Herencia en partidos, equipos y jugadores, parejas en dobles.
+
+## Instrucciones de Compilación y Ejecución
+
+### Lo que Necesitas
+- PlantUML (opcional) o una página web
+- Un editor de texto como VS Code
+- Extensión PlantUML para VS Code (opcional)
+
+### Cómo Ver los Diagramas
+
+**Opción 1: Con VS Code (la más fácil)**
+```bash
+# Instala la extensión "PlantUML Official"
+# Abre un archivo .puml y presiona Alt+D
+```
+
+**Opción 2: En internet sin instalar nada**
+```bash
+# Copia el contenido en:
+# https://plantuml.com/plantuml/uml/
+```
+
+## Desarrollo de la Actividad
+
+### Pasos Seguidos
+
+Para cada ejercicio se hizo lo siguiente:
+- Leer lo que pidió el cliente
+- Encontrar los elementos principales (clases)
+- Definir qué datos tiene cada clase
+- Definir qué acciones puede hacer cada clase
+- Dibujar las conexiones entre clases
+- Indicar cuántas unidades se relacionan (uno a uno, uno a muchos, etc.)
+
+### Archivos Creados
+
+| Archivo | Qué es |
+|---------|--------|
+| `src/Ej1_DiagramaClases_LibrosAutor_sol.puml` | Autor y Libros |
+| `src/Ej2_DiagramaClases_CursosUniversitarios_sol.puml` | Profesor, Curso y Estudiante |
+| `src/Ej4_DiagramaClases_GestionEmpresarial_sol.puml` | Estructura empresarial |
+| `src/Ej6_DiagramaClases_Biblioteca_sol.puml` | Libros y Préstamos |
+| `src/Ej7_DiagramaClases_CopaDavis_sol.puml` | Torneo de Tenis |
+
+### Conceptos Clave Aplicados
+
+✓ **Herencia:** Cuando una clase es un tipo especial de otra (en ejercicios 4 y 7)
+✓ **Tabla Intermedia:** Para guardar datos cuando dos clases se relacionan (ejercicio 2)
+✓ **Cálculos Automáticos:** Datos que se calculan solos a partir de otros
+✓ **Cuántas Relaciones:** Especificar si es uno a uno, uno a muchos, etc.
+✓ **Público y Privado:** Marcar qué se ve desde fuera y qué es interno
+✓ **Relaciones Reflexivas:** Un empleado supervisa a otros empleados
+
+## Resultados de Pruebas
+
+Se verificó que los diagramas sean correctos:
+- ✓ Todas las partes principales están incluidas
+- ✓ Los datos tienen el tipo correcto
+- ✓ Los cálculos automáticos están marcados
+- ✓ Las cantidades de relaciones son correctas
+- ✓ El código PlantUML funciona bien
+
+## Conclusiones
+
+Se crearon correctamente los diagramas de clases para diferentes sistemas. Los diagramas muestran cómo las clases se relacionan entre sí y qué hace cada una.
+
+### Lecciones Aprendidas
+- Cómo identificar bien las cantidades en las relaciones
+- Cuándo usar una tabla intermedia para guardar datos
+- Cómo usar herencia cuando una clase es un tipo de otra
+- Cómo documentar datos calculados automáticamente
+
+## Referencias y Fuentes
+
+- [PlantUML - Documentación](https://plantuml.com/)
+- [Diagramas UML - Tutoriales](https://www.uml-diagrams.org/)
+- Los archivos .md con los requisitos originales
 
 ---
 
-# Título de la Actividad
-
-## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
-- **Alumno(s):**
-    - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-    - **Correo electrónico:** [Correo electrónico g.educaand.es]
-    - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
-
-## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
-
-## Instrucciones de Compilación y Ejecución
-1. **Requisitos Previos:**
-    - [Lenguaje de programación y versión]
-    - [Entorno de desarrollo o dependencias necesarias]
-
-2. **Pasos para Compilar el Código:**
-   ```bash
-   [Comando para compilar el código]
-   ```
-
-3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
-
-4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
-
-## Desarrollo de la Actividad
-### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
-Los enlaces al codigo se realizaran tal y como se describe [aqui](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet)
-
-
-### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
-
-### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
-
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
-
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
-
-## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
-
-## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
-
-### Notas Adicionales:
-1. **Nombres de Archivos y Repositorios:**
-    - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-    - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+**Repositorio:** [GitHub - 2526-u3-3-1-diagramaclases](https://github.com/IES-Rafael-Alberti/2526-u3-3-1-diagramaclases-DylaanBH9)
