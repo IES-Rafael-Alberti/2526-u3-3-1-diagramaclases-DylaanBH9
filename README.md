@@ -25,15 +25,15 @@ Cada ejercicio en un archivo diferente, con nombre `EjX_DiagramaClases_NombreTem
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 3.1. Diagrama de clases
+- **Módulo:** [Nombre del módulo] EDES
+- **Unidad de Trabajo:** U3: Diseño y diagramas de clases 
+- **Fecha de Creación:** 7/12/25
+- **Fecha de Entrega:** 9/12/25
 - **Alumno(s):**
-    - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-    - **Correo electrónico:** [Correo electrónico g.educaand.es]
-    - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+    - **Nombre y Apellidos:** Dylan Bauti Huelva
+    - **Correo electrónico:** dbauhue1708@g.educaand.es
+    - **Iniciales del Alumno/Grupo:** DBH
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
